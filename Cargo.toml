@@ -1,0 +1,10 @@
+[package]
+name = "ibc-failing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.ibc-relayer]
+git = "https://github.com/informalsystems/ibc-rs"
+rev = "37dbe8c42ae09403432ebfcfdb2a8a34d86909e9"
